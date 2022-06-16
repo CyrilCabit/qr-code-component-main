@@ -14,12 +14,18 @@ body {
         text-align: center;
     }
 }
-img{
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+img {
     width: 100%;
     border-radius: 10px;
 }
 .card {
-    margin: 75px auto;
+    
     width: 250px;
     background-color: hsl(0deg, 0%, 100%);
     border-radius: 10px;
